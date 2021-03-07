@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "COUG CHAT Hackathon 2021/1.0.0": {
+        "runtime": {
+          "COUG CHAT Hackathon 2021.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "COUG CHAT Hackathon 2021/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

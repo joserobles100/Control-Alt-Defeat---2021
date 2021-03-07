@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="createAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="discoverPeopleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editLabelWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="signIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="profileWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
