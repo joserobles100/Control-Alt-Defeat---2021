@@ -30,6 +30,16 @@ namespace COUG_CHAT_Hackathon_2021
 
         private void viewPersonButton_Click(object sender, EventArgs e)
         {
+            hiLabel.Text = "";
+            howLabel.Text = "";
+            byeLabel.Text = "";
+
+            hiRadioButton.Checked = false; 
+            howRadioButton.Checked = false; 
+            byeRadioButton.Checked = false; 
+
+
+
             if (friendListBox.SelectedIndex != -1)
             {
                 string selectedName = friendListBox.SelectedItem.ToString();
