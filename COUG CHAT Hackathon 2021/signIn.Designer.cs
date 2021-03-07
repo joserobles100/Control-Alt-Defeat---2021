@@ -70,7 +70,7 @@ namespace COUG_CHAT_Hackathon_2021
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(201, 96);
+            this.label3.Location = new System.Drawing.Point(181, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 3;
@@ -80,7 +80,7 @@ namespace COUG_CHAT_Hackathon_2021
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(202, 129);
+            this.label4.Location = new System.Drawing.Point(181, 133);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 20);
             this.label4.TabIndex = 4;
@@ -88,14 +88,14 @@ namespace COUG_CHAT_Hackathon_2021
             // 
             // userNameTextBox
             // 
-            this.userNameTextBox.Location = new System.Drawing.Point(281, 93);
+            this.userNameTextBox.Location = new System.Drawing.Point(264, 96);
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(131, 27);
             this.userNameTextBox.TabIndex = 5;
             // 
             // passwordTextBox
             // 
-            this.passwordTextBox.Location = new System.Drawing.Point(281, 126);
+            this.passwordTextBox.Location = new System.Drawing.Point(264, 126);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.Size = new System.Drawing.Size(131, 27);
             this.passwordTextBox.TabIndex = 6;
@@ -139,7 +139,7 @@ namespace COUG_CHAT_Hackathon_2021
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
-            this.ClientSize = new System.Drawing.Size(649, 303);
+            this.ClientSize = new System.Drawing.Size(645, 303);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.CreateAccountButton);

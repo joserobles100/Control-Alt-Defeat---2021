@@ -214,7 +214,6 @@ namespace COUG_CHAT_Hackathon_2021
             // 
             // f
             // 
-            this.f.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.f.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.f.ForeColor = System.Drawing.Color.White;
             this.f.Location = new System.Drawing.Point(111, 248);
