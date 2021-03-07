@@ -10,6 +10,7 @@ namespace COUG_CHAT_Hackathon_2021
         private string mGrad;
         private string mHobbies;
         private string mMajor;
+        public bool friend;
         
         //constructor
         public accountInfo(string newName = "", string newGrad = "",
@@ -18,7 +19,8 @@ namespace COUG_CHAT_Hackathon_2021
             mName = newName;
             mGrad = newGrad;
             mHobbies = newHobbies;
-            mMajor =  newMajor; 
+            mMajor =  newMajor;
+            friend = false;
         }
         public void printInfo()
         {
@@ -46,6 +48,7 @@ namespace COUG_CHAT_Hackathon_2021
         {
             return mMajor;
         }
+        
 
          //setters
         public void SetName(string copy)

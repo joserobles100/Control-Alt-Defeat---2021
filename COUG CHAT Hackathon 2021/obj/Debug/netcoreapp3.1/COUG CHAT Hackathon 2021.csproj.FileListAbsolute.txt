@@ -18,3 +18,4 @@ C:\Users\18jos\Documents\Visual Studio 2019\Hackathon 2019\COUG CHAT Hackathon 2
 C:\Users\18jos\Documents\Visual Studio 2019\Hackathon 2019\COUG CHAT Hackathon 2021\obj\Debug\netcoreapp3.1\COUG_CHAT_Hackathon_2021.editLabelWindow.resources
 C:\Users\18jos\Documents\Visual Studio 2019\Hackathon 2019\COUG CHAT Hackathon 2021\obj\Debug\netcoreapp3.1\COUG_CHAT_Hackathon_2021.discoverPeopleForm.resources
 C:\Users\18jos\Documents\Visual Studio 2019\Hackathon 2019\COUG CHAT Hackathon 2021\obj\Debug\netcoreapp3.1\COUG_CHAT_Hackathon_2021.createAccountForm.resources
+C:\Users\18jos\Documents\Visual Studio 2019\Hackathon 2019\COUG CHAT Hackathon 2021\obj\Debug\netcoreapp3.1\COUG_CHAT_Hackathon_2021.friendForm.resources

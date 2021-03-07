@@ -29,6 +29,7 @@ namespace COUG_CHAT_Hackathon_2021
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(createAccountForm));
             this.nextButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.userBox = new System.Windows.Forms.TextBox();
@@ -43,6 +44,8 @@ namespace COUG_CHAT_Hackathon_2021
             this.gradLabel = new System.Windows.Forms.Label();
             this.hobLabel = new System.Windows.Forms.Label();
             this.majorLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // nextButton
@@ -171,12 +174,23 @@ namespace COUG_CHAT_Hackathon_2021
             this.majorLabel.TabIndex = 13;
             this.majorLabel.Text = "Major:";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(38, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // createAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(706, 369);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.majorLabel);
             this.Controls.Add(this.hobLabel);
             this.Controls.Add(this.gradLabel);
@@ -193,6 +207,7 @@ namespace COUG_CHAT_Hackathon_2021
             this.Controls.Add(this.nextButton);
             this.Name = "createAccountForm";
             this.Text = "createAccountForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +229,6 @@ namespace COUG_CHAT_Hackathon_2021
         private System.Windows.Forms.Label gradLabel;
         private System.Windows.Forms.Label hobLabel;
         private System.Windows.Forms.Label majorLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

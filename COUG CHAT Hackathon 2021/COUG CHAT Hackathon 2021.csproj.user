@@ -10,6 +10,9 @@
     <Compile Update="editLabelWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="friendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="signIn.cs">
       <SubType>Form</SubType>
     </Compile>

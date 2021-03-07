@@ -69,10 +69,9 @@ namespace COUG_CHAT_Hackathon_2021
 
             discoverPeopleForm discoverPeopleWindow = new discoverPeopleForm();
             discoverPeopleWindow.ShowDialog();
-            
-          
-            
 
+            int followerCounter = discoverPeopleWindow.friendCounter();
+            followerLabel.Text = "Friends: " + followerCounter;
         }
 
         private void signOutButton_Click(object sender, EventArgs e)
@@ -88,18 +87,36 @@ namespace COUG_CHAT_Hackathon_2021
         //This is for when we create an account and we can overwrite the data already there
         private void profileWindow_Load(object sender, EventArgs e)
         {
+
+            followerLabel.Text = "Friends: 0";
+
             StreamReader infile = File.OpenText("accountInfo.txt");
 
+            //discoverPeopleForm myPeopleForm = new discoverPeopleForm(); 
+            f.Text = "Go Cougs!";
             string buffer = "";
-            buffer = infile.ReadLine();
+            userNameLabel.Text = infile.ReadLine();
             buffer = infile.ReadLine();
             nameLabel.Text = infile.ReadLine();
             studentTypeLabel.Text = infile.ReadLine();
             hobbyLabel.Text = "Hobbies: " + infile.ReadLine();
             majorLabel.Text = "Major: " + infile.ReadLine();
+            //int followerCounter = myPeopleForm.friendCounter();
+            //followerLabel.Text = "Friends: " + followerCounter; 
  
             //TESTING THIS WAS COMMENTED ORIGINALLY
             infile.Close();
         }
+
+        private void viewFriendsButton_Click(object sender, EventArgs e)
+        {
+            friendForm myFriendForm = new friendForm();
+
+            myFriendForm.ShowDialog(); 
+        }
+        //private void majorLabel_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

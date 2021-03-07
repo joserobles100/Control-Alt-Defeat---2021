@@ -29,6 +29,7 @@ namespace COUG_CHAT_Hackathon_2021
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(discoverPeopleForm));
             this.accountNamesListBox = new System.Windows.Forms.ListBox();
             this.accountNameLabel = new System.Windows.Forms.Label();
             this.studentTypeLabel = new System.Windows.Forms.Label();
@@ -36,6 +37,10 @@ namespace COUG_CHAT_Hackathon_2021
             this.majorLabel = new System.Windows.Forms.Label();
             this.viewAccountButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.friendLabel = new System.Windows.Forms.Label();
+            this.addFriendButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // accountNamesListBox
@@ -111,12 +116,47 @@ namespace COUG_CHAT_Hackathon_2021
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // friendLabel
+            // 
+            this.friendLabel.BackColor = System.Drawing.Color.White;
+            this.friendLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.friendLabel.ForeColor = System.Drawing.Color.Black;
+            this.friendLabel.Location = new System.Drawing.Point(462, 259);
+            this.friendLabel.Name = "friendLabel";
+            this.friendLabel.Size = new System.Drawing.Size(159, 25);
+            this.friendLabel.TabIndex = 12;
+            // 
+            // addFriendButton
+            // 
+            this.addFriendButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.addFriendButton.ForeColor = System.Drawing.Color.White;
+            this.addFriendButton.Location = new System.Drawing.Point(195, 301);
+            this.addFriendButton.Name = "addFriendButton";
+            this.addFriendButton.Size = new System.Drawing.Size(108, 37);
+            this.addFriendButton.TabIndex = 13;
+            this.addFriendButton.Text = "Add friend";
+            this.addFriendButton.UseVisualStyleBackColor = false;
+            this.addFriendButton.Click += new System.EventHandler(this.addFriendButton_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(38, 33);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // discoverPeopleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(691, 359);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.addFriendButton);
+            this.Controls.Add(this.friendLabel);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.viewAccountButton);
             this.Controls.Add(this.majorLabel);
@@ -127,6 +167,7 @@ namespace COUG_CHAT_Hackathon_2021
             this.Name = "discoverPeopleForm";
             this.Text = "discoverPeopleForm";
             this.Load += new System.EventHandler(this.discoverPeopleForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -140,5 +181,8 @@ namespace COUG_CHAT_Hackathon_2021
         private System.Windows.Forms.Button viewAccountButton;
         private System.Windows.Forms.Label studentTypeLabel;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Label friendLabel;
+        private System.Windows.Forms.Button addFriendButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
